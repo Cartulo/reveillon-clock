@@ -37,15 +37,31 @@ main {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%)
-}
-
-.clock{
+  transform: translate(-50%, -50%);
   font-family: ClockFont;
-  font-size: 20rem;
+  font-size: 5rem;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+table{
+  display: flex;
+  flex-direction: column;
+}
+
+.info{
+  transform: translate(0, 400%);
+  text-align: center;
+
+}
+
+#days,
+#hours,
+#minutes,
+#seconds{
+  font-size: 15rem;
+  
 }
