@@ -3,8 +3,6 @@ import './styles/global.css'
 function countdown() {
   let now = new Date();
   let eventDate = new Date(2023, 0, 1 );
-  console.log(eventDate);
-  
 
   let currentTime = now.getTime();
   let eventTime = eventDate.getTime();
