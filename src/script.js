@@ -30,6 +30,7 @@ function conversorData() {
 
 function formatarData(dias, horas, minutos, segundos) {
     document.getElementById("countdown").innerHTML = `${dias} dias<br>${horas}:${minutos}:${segundos}`;
+    document.title = `Faltam ${dias} dias!`;
 };
 
 function formatarValor(num, targetLength) {

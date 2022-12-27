@@ -1,10 +1,22 @@
 :root {
+    --primary-color: #CC4BC2;
+    --background-color: #6C3A5C;
+
     color: white;
-    background-color: black;
+    background-color: var(--background-color);
     font-family: 'Digital-7', sans-serif;
+    font-size: 5em;
+    text-align: center;
 }
 
-:root {
-    font-size: 2em;
-    text-align: center;
+.glowText {
+    text-shadow:
+        0 0 5px #FFF,
+        0 0 10px #FFF,
+        0 0 15px #FFF,
+        0 0 20px var(--primary-color),
+        0 0 30px var(--primary-color),
+        0 0 40px var(--primary-color),
+        0 0 55px var(--primary-color),
+        0 0 75px var(--primary-color);
 }
